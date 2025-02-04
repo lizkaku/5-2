@@ -1,8 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color:  #07081A;
 }
-.navdiv {
+header {
     display: flex;
     padding-left: 200px;
     padding-top: 28px;
@@ -11,18 +12,113 @@
     border: 1px;
     border-bottom: solid #261C51;
     color: #FFF;
-    align-items: center;
     flex-direction: row;
 }
 
 .logo {
-   margin-right: 640px;
+   margin-right: 700px;
    flex-direction: row;
+ 
+}
+.cloudo {
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 12PX;
+    
 }
 
 .HISG {
-   flex-direction: row;
+   flex-direction: row-reverse;
 }
 .H {
     color: #8CE900;
+    margin-right: 16px;
+}
+.G {
+    margin-right: 16px;
+    margin-left: 16px
+}
+/* main*/
+
+.img2 {
+    height: 300px;
+}
+.text {
+    font-size: 48px;
+    color: #FFF;
+
+}
+.maindiv1 {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 64px;
+}
+
+.maindiv2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 40px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+    padding-left: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #242642;
+    margin-bottom: 200px;
+}
+.f {
+    color: #8CE900;
+    font-size: 56px;
+    background-color: #242642;
+   
+}
+.project {
+    color: #C0C0C0;
+    background-color: #242642;
+    font-size: 20px;
+   
+}
+/* footer*/
+.footerdiv
+{
+    color: #FFF;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    font-size: 16px;
+}
+.img3 {
+    flex-direction: column;
+}
+.Hi{
+    flex-direction: column;
+}
+.contact {
+    flex-direction: column;
+}
+.navco {
+    color: #8CE900;
+}
+.idk {
+    flex-direction: row;
+}
+.hos {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.design {
+    color: #C0C0C0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
 }
